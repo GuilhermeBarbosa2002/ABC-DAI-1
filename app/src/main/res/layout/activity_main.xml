@@ -11,37 +11,40 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/button"
         app:barrierDirection="top"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintVertical_bias="0.648" />
 
     <TextView
         android:id="@+id/LOGIN_text"
         android:layout_width="58dp"
         android:layout_height="33dp"
         android:background="#FEB614"
-        android:text="LOGIN"
+        android:text="@string/login"
+        android:textColor="#5D4037"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
+        app:layout_constraintVertical_bias="0.286" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button2Confirmar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="326dp"
         android:layout_marginBottom="357dp"
-        android:text="Confirmar"
+        android:text="@string/confirmar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
